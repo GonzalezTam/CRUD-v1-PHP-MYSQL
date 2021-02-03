@@ -4,9 +4,9 @@
         $password = $_POST['password'];
         $email = $_POST['email'];
         $telefono = $_POST['telefono'];
-        $residencia = $_POST['residencia'];
+        $domicilio = $_POST['domicilio'];
 
-        $insert = "INSERT INTO usuarios (usuario,contraseña,email,telefono,pais_residencia)VALUES('$usuario','$password','$email', '$telefono', '$residencia')";
+        $insert = "INSERT INTO usuarios (usuario,password,email,telefono,domicilio)VALUES('$usuario','$password','$email', '$telefono', '$domicilio')";
         $ejecutar = mysqli_query($link, $insert);
 
         

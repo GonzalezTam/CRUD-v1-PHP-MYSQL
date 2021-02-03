@@ -9,4 +9,4 @@ $db_charset = 'utf8';
 $link = mysqli_connect($db_host, $db_user, $db_password, $db_database);
 mysqli_set_charset($link, $db_charset);
 
-$rsu = mysqli_query($link, 'SELECT * FROM usuarios');
+// $rsu = mysqli_query($link, 'SELECT * FROM usuarios');

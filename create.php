@@ -1,5 +1,5 @@
 <?php
-    if(isset($_POST['confirmar'])){
+    if(isset($_POST['insertar'])){
         $usuario = $_POST['usuario'];
         $password = $_POST['password'];
         $email = $_POST['email'];
